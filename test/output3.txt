@@ -1,0 +1,11 @@
+AAABB#CC
+ABB#BBBC
+A#BBBBCC
+ABBBBBB#
+#FBBBBGD
+EF#FGGGD
+EFHFGH#D
+EEHH#HDD
+
+Waktu pencarian : 627.00 ms
+Banyak kasus ditinjau: 11333813 kasus
