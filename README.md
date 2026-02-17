@@ -17,13 +17,13 @@ Program ini dilengkapi dengan fitur *visualizer* interaktif, peringatan *error h
 
 ## Kebutuhan Sistem
 Untuk dapat melakukan kompilasi dan menjalankan program ini, pastikan komputer Anda sudah terpasang perangkat lunak berikut:
-* **Java Development Kit (JDK) 17** atau versi yang lebih baru. Cara instalasi:
+* **Java Development Kit (JDK) 21** atau versi yang lebih baru. Cara instalasi:
   ### Linux
   ```bash
-  sudo apt install openjdk-17-jdk
+  sudo apt install openjdk-21-jdk
   ```
   ### Windows
-  Unduh Java 17 ke atas pada link berikut. https://www.oracle.com/id/java/technologies/downloads/
+  Unduh Java 21 ke atas pada link berikut. https://www.oracle.com/id/java/technologies/downloads/
 
 ---
 
