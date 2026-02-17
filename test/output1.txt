@@ -1,10 +1,8 @@
-AAB#BAA
-#ACBCDD
-AACB#DD
-A#CCCFD
-AECCC#D
-EE#CFDD
-GEGDFD#
+AA#BB
+ACCB#
+A#EED
+AEE#D
+#ADDD
 
-Waktu pencarian : 94.00 ms
-Banyak kasus ditinjau: 363160 kasus
+Waktu pencarian : 1855.00 ms
+Banyak kasus ditinjau: 1791 kasus

@@ -11,10 +11,10 @@ public class Solver {
     public Solver(Consumer<Board> onUpdate, int n) {
         this.onUpdate = onUpdate;
 
-        if (n <= 5) this.updateThreshold = 100;
-        else if (n == 6) this.updateThreshold = 5_000;
-        else if (n == 7) this.updateThreshold = 100_000;
-        else if (n == 8) this.updateThreshold = 1_000_000;
+        if (n <= 5) this.updateThreshold = 20;
+        else if (n == 6) this.updateThreshold = 1_000;
+        else if (n == 7) this.updateThreshold = 10_000;
+        else if (n == 8) this.updateThreshold = 500_000;
         else this.updateThreshold = 10_000_000;
     }
 

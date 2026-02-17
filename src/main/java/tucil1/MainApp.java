@@ -217,9 +217,16 @@ public class MainApp extends Application {
                     } else {
                         labelStatus.setStyle("-fx-font-family: " + FONT_FAMILY + "; -fx-font-size: 18px; -fx-text-fill: #DC2626; -fx-font-weight: bold;");
                         labelStatus.setText(String.format("TIDAK ADA SOLUSI!\nWaktu pencarian: %.2f ms\nBanyak kasus ditinjau: %d iterasi", executionTime, solver.countCase));
-                        gridBoard.getChildren().clear();
-                        placeholderBox.setVisible(true);
-                        gridBoard.setVisible(false);
+
+                        for (int i = 0; i < board.n; i++) {
+                            board.queenPos[i] = -1;
+                        }
+
+                        drawBoard(board);
+                        placeholderBox.setVisible(false);
+                        gridBoard.setVisible(true);
+                        btnSaveTxt.setDisable(true);
+                        btnSaveImg.setDisable(true);
                     }
                 });
             });
@@ -230,9 +237,15 @@ public class MainApp extends Application {
         } catch (FileNotFoundException e) {
             labelStatus.setStyle("-fx-text-fill: #DC2626; -fx-font-family: " + FONT_FAMILY + "; -fx-font-weight: bold;");
             labelStatus.setText("Error: File tidak dapat dibaca!");
+
+            gridBoard.setVisible(false);
+            placeholderBox.setVisible(true);
         } catch (Exception e) {
             labelStatus.setStyle("-fx-text-fill: #DC2626; -fx-font-family: " + FONT_FAMILY + "; -fx-font-weight: bold;");
             labelStatus.setText(e.getMessage());
+
+            gridBoard.setVisible(false);
+            placeholderBox.setVisible(true);
         }
     }
 

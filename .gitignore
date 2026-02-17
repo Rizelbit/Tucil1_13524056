@@ -37,3 +37,19 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### LaTeX ###
+.tex
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+
+doc/*.png
+doc/*.jpg
+doc/*.jpeg

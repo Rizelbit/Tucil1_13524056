@@ -7,5 +7,5 @@ EF#FGGGD
 EFHFGH#D
 EEHH#HDD
 
-Waktu pencarian : 627.00 ms
+Waktu pencarian : 864.00 ms
 Banyak kasus ditinjau: 11333813 kasus

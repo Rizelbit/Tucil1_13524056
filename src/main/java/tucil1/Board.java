@@ -5,7 +5,6 @@ public class Board {
     int n;
     char[][] boardMap;
     int[] queenPos;
-    boolean[] usedColor;
 
     public Board(char[][] inputBoard, int size) {
         this.n = size;
